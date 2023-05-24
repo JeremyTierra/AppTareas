@@ -1,0 +1,44 @@
+:root {
+  --color1: #c2b4f4;
+  --color2: #f3d7ff;
+  --color3: #1c1833;
+  --color4: #78767c;
+  --color5: #e2e2e2;
+
+}
+
+*{
+  font-size: 14px;
+}
+
+html,
+body {
+
+  background-color: var(--color3);
+  color: white;
+
+}
+
+.aplicacion-tareas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenedor-logo {
+  display: flex;
+  justify-content: center;
+
+}
+
+.logoApp {
+  margin-top: 30px;
+  width: 270px;
+}
+
+.app-tareas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

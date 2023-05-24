@@ -1,0 +1,28 @@
+.contenedorContadores{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    border-bottom: 2px solid var(--color4);
+  
+}
+.completados{
+    text-align: center;
+    width: 30px;
+    margin: 10px;
+    font-size: 22px;
+
+}
+.contenedorContadores h1{
+    margin: 10px;
+    color: greenyellow;
+    font-size: 22px;
+}
+
+@media (min-width: 1000px) {
+    .contenedorContadores{
+        position: fixed;
+        top: 80px;
+        left: 30px;
+    }
+  }

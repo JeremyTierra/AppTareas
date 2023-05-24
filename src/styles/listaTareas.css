@@ -1,0 +1,50 @@
+.app-tareas {
+    margin-top: 30px;
+    width: 320px;
+    min-height: 400px;
+    background-color: var(--color5);
+    border-radius: 15px;
+    display: flex;
+
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 20px;
+    color: #1c1833;
+}
+
+.form-tareas {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+
+}
+
+.botonEnvio,
+input {
+    border: none;
+    margin: 3px;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+.botonEnvio:hover {
+    background-color: var(--color1);
+}
+
+.botonEnvio {
+    background-color: green;
+    color: #e2e2e2;
+    font-weight: bold;
+}
+
+.lista-tareas {
+    display: flex;
+    margin: 10px;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    height: 60vh;
+    overflow: scroll;
+}

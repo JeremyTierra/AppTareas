@@ -1,0 +1,26 @@
+
+.tarea{
+    padding: 5px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    background-color: #c2b4f4;
+    border-radius: 5px;
+  }
+  .boton-eliminar{
+    background-color:transparent;
+    border:none;
+    color: white;
+  }
+
+  .tarea-completada{
+    background-color:black;
+    color: white;
+    text-decoration:line-through;
+
+  }
+  .divTexto:hover{
+    cursor: pointer;
+  }
